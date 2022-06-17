@@ -1,7 +1,7 @@
 # Assignment 1
 This repository includes an HTML file with stylized edits using a CSS file. 
 
-[Finished product](https://lilniz.github.io/Assignments/#social-media-marketing)
+[Finished website!](https://lilniz.github.io/Assignments/)
 
 The HTML file can be found in the root.
 The CSS file can be found in; Assets/css
