@@ -11,7 +11,7 @@ body {
 }
 
 /*Main Header Formatting*/
-.header {
+body header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,18 +19,18 @@ body {
 }
 
 /*Format for h1 within header*/
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /*Color for span^seo within h1 of header*/
-.header h1 .seo {
-    color: #d9dcd6;
+header h1 span {
+    color: #c9e0b2;
 }
 
 /*Formatting for nav within header*/
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ body {
 }
 
 /*List style type for ul within nav of the header*/
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
 /*List item display within the ul of the nav in the header*/
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -56,7 +56,7 @@ a {
 }
 
 /*Parameters of the background image*/
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -66,14 +66,14 @@ a {
 }
 
 /*Organizing this section with specific parameters*/
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 /*Formatting the section which the unique anchor points to*/
-.search-engine-optimization {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -82,13 +82,13 @@ a {
     color: #ffffff;
 }
 
-/*Max height to specific image*/
-.search-engine-optimization img {
+/* Formatting the image max height. */
+main section img {
     max-height: 200px;
 }
 
-/*Giving a bottom margin and font size to h2 within the selector*/
-.search-engine-optimization h2 {
+/* Formatting bottom margin and fint size for h2 */
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -104,53 +104,14 @@ p {
     font-size: 16px;
 }
 
-/*Formatting the section which the unique anchor points to*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Max height to specific image*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-/*Giving a bottom margin and font size to h2 within the selector*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /*Element(image) floats right of text with margin between border*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*Formatting the section which the unique anchor points to*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Max height to specific image*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-/*Giving a bottom margin and font size to h2 within the selector*/
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-
 /*Formatting of the whole aside tag*/
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -162,64 +123,26 @@ p {
 }
 
 /*Format of the specific section*/
-.benefit-lead {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /*Format of the specific h3 heading*/
-.benefit-lead h3 {
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /*Display of the specific image*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Format of the specific section*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Format of the specific h3 heading*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Display of the specific image*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Format of the specific section*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Format of the specific h3 heading*/
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Display of the specific image*/
-.benefit-cost img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /*Adding format/parameters to the footer*/
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -227,6 +150,6 @@ p {
 }
 
 /*Adding font size to h2 within the footer*/
-.footer h2 {
+footer h4 {
     font-size: 20px;
 }
